@@ -23,18 +23,26 @@
 }
 
 .links-container nav ul li{
- padding: .6rem 1.5rem;
+ padding: .4rem 1.5rem;
  font-size: 1.2rem;
+ cursor: pointer;
 
 }
+
+.links-container nav ul li:hover{
+   color: #FF0B0A;
+   transition: all .5s ease;
+}
+
 .btn-resume button{
-    padding: .8rem 1.5rem;
+    padding: .6rem 1.2rem;
     font-size: 1.2rem;
     font-weight: 700;
     border: none;
    margin-right: 1rem;
    border-radius: 5px;
    background: #FF0B0A;
+   cursor: pointer;
    
 }
 .burger-menu{
@@ -85,7 +93,7 @@
   
     padding: 10px;
     align-self: flex-end;
-    
+    color: #FF0B0A;
 }
 
   
@@ -95,11 +103,13 @@
      text-decoration: none;
      display: flex;
      flex-direction: column;
+     justify-content: center;
+     align-items: center;
      gap: 1rem;
    }
    .btn-mobile button{ 
       padding: .5rem 1rem;
-      margin-left: 2rem;
+      margin-left: 3rem;
    }
 
 
