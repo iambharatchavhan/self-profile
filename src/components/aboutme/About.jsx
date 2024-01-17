@@ -15,7 +15,6 @@ export default function About() {
             Hi, I am <span>Bharat Chavhan</span>
           </h1>
           <p className="tagline">
-       
             Full Stack Developer | MERN Stack Enthusiast | Crafting Seamless Web
             Experiences
           </p>
@@ -32,7 +31,7 @@ export default function About() {
             technologies and frameworks to broaden my horizon and elevate my
             capabilities.
           </p>
-       
+
           <div className="btn-container">
             <button className="btn-contact">Contact Me</button>
             <button className="btn-download">Download Resume</button>
@@ -41,10 +40,8 @@ export default function About() {
       </div>
       <p className="skills-title">#Dependencies</p>
       <div className="skills">
-        <Skills/>
+        <Skills />
       </div>
     </section>
   );
 }
-
-
