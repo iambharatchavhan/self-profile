@@ -1,0 +1,39 @@
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    min-height:100svh ;
+
+}
+.left{
+
+ display: flex;
+ flex-direction: column;
+ justify-content:space-between;
+ align-items: end;
+ width: 400px;
+ height: 600px;
+ background-color: #e68c25cb;
+ border-radius: 5px 0 0 5px;
+}
+.left img{
+    object-fit: cover;
+    width: 100%;
+   
+}
+.contact-me-title{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    color: #032068;
+    
+}
+
+.right{
+    border: 1px solid blue;
+    width: 800px;
+    height: 600px;
+
+
+}
