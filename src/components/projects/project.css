@@ -1,6 +1,8 @@
 #projects{
     padding: 1rem;
+    min-height: 50svh;
 }
+
 
 .project-card{
     display: flex;
@@ -66,6 +68,9 @@
     justify-content:center;
     align-items: center;
     gap: 2rem;
+    border-radius: 5px;
+    padding: 1.5rem 0;
+    background-color: #61616146;
 }
 .filters button{
     padding: .8rem 1rem;
