@@ -14,7 +14,9 @@ export default function Contact() {
           <h2 className="contact-me-title">Contact Me</h2>
           <img src={bg} alt="contactImg" />
         </div>
+
         <div className="right">
+        <h2 className="contact-me-title mobile-view">Contact Me</h2>
           <div className="contact-details">
             <div className="icon">
               <MdEmail />
