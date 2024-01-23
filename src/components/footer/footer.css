@@ -1,0 +1,24 @@
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #a3a3a3d0;
+    padding: .5rem;
+    background-color: #161616;
+}
+.footer-details{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.copy{
+    width: 100%;
+    color: #a3a3a356;
+    font-size: .8rem;
+    text-align: center;  
+
+}

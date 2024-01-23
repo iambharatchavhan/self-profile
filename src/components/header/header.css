@@ -41,7 +41,7 @@
     border: none;
    margin-right: 1rem;
    border-radius: 5px;
-   background: #FF0B0A;
+   background: #e43d0a;
    cursor: pointer;
    
 }
@@ -93,7 +93,7 @@
   
     padding: 10px;
     align-self: flex-end;
-    color: #FF0B0A;
+    
 }
 
   
@@ -138,7 +138,9 @@
         border: none;
        margin-right: 1rem;
        border-radius: 5px;
-       background: #FF0B0A;
+       background: #e43d0a;
+       
+    
        
     }
 
