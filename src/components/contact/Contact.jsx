@@ -39,19 +39,19 @@ export default function Contact() {
             <div className="icon">
               <IoLogoGithub />
             </div>
-            <div className="information" >iambharatchavhan</div>
+            <div className="information" ><a href="https://github.com/iambharatchavhan" target="_blank">iambharatchavhan</a></div>
           </div>
           <div className="contact-details">
             <div className="icon">
               <IoLogoLinkedin />
             </div>
-            <div className="information" >bharat-chavhan-563a881ba</div>
+            <div className="information" ><a href="https://www.linkedin.com/in/bharat-chavhan-563a881ba/" target="_blank">bharat-chavhan-563a881ba</a></div>
           </div>
           <div className="contact-details">
             <div className="icon">
               < SiHashnode />
             </div>
-            <div className="information" >hashnode.com/@iambharat</div>
+            <div className="information" ><a href="https://hashnode.com/@iambharat" target="_blank">hashnode.com/@iambharat</a> </div>
           </div>
         </div>
         </div>

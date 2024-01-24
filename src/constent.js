@@ -9,11 +9,21 @@ import project8 from "../src/components/assets/project8.png"
 import project9 from  "../src/components/assets/project9.png"
 import project10 from  "../src/components/assets/project10.png"
 import project11 from  "../src/components/assets/project11.png"
-
+import project12 from "../src/components/assets/protfolioV2.png"
 
 
 export const projects = [
-    {
+  {
+    id: 12,
+    img: project12,
+    title: "PortfolioV02",
+    type: "react",
+    link: "https://todo-app-mern-front-end-by-bharat.vercel.app/",
+  },
+  
+  
+  
+  {
       id: 11,
       img: project11,
       title: "Todo App(MERN)",

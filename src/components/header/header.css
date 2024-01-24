@@ -22,6 +22,12 @@
 
 }
 
+
+.hash-link{
+    text-decoration: none;
+    color: #fff;
+}
+
 .links-container nav ul li{
  padding: .4rem 1.5rem;
  font-size: 1.2rem;
@@ -30,7 +36,7 @@
 }
 
 .links-container nav ul li:hover{
-   color: #FF0B0A;
+   color: #0081B4;
    transition: all .5s ease;
 }
 

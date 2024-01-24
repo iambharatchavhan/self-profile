@@ -2,8 +2,29 @@ import React from "react";
 import "./about.css";
 import profile from "../assets/profile.png";
 import Skills from "./Skills";
+import { HashLink as Link } from "react-router-hash-link";
+import thePdf from "../../../public/Bharat_Chavhan_Resume.pdf"
 
 export default function About() {
+
+  const handleDownload = () => {
+  
+    const pdfUrl = "http://localhost:5173/"+thePdf;
+
+    const anchor = document.createElement('a');
+    anchor.href = pdfUrl;
+    anchor.download = 'Bharat_Chavhan_Resume.pdf'; 
+    document.body.appendChild(anchor);
+    anchor.click();
+  
+    if (document.body.contains(anchor)) {
+      document.body.removeChild(anchor);
+    }
+
+  };
+
+
+
   return (
     <section id="about">
       <div className="aboutMe-container">
@@ -33,8 +54,8 @@ export default function About() {
           </p>
 
           <div className="btn-container">
-            <button className="btn-contact">Contact Me</button>
-            <button className="btn-download">Download Resume</button>
+          <Link to="#contact" smooth><button className="btn-contact">Hire Me</button></Link>  
+            <button className="btn-download" onClick={handleDownload}>Download Resume</button>
           </div>
         </div>
       </div>
