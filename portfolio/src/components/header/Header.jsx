@@ -11,7 +11,7 @@ export default function Header() {
 
   const handleDownload = () => {
   
-    const pdfUrl = "http://localhost:5173/"+thePdf;
+    const pdfUrl = "https://self-profile-lqbguc54r-bharats-projects-64416e89.vercel.app/"+thePdf;
 
     const anchor = document.createElement('a');
     anchor.href = pdfUrl;
